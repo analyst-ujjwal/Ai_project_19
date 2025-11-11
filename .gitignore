@@ -1,0 +1,106 @@
+# =========================
+# 📦 PYTHON & ENVIRONMENTS
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.pot
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# =========================
+# ⚙️ ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.*
+!.env.example   # Keep the example template
+
+# =========================
+# 🧠 MODEL / CACHE FILES
+# =========================
+# Hugging Face & Transformers
+huggingface/
+.cache/
+transformers_cache/
+~/.cache/huggingface/
+~/.cache/torch/
+~/.cache/
+models/
+checkpoints/
+*.bin
+*.pt
+*.ckpt
+
+# =========================
+# 🧩 SYSTEM / OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Icon?
+*.swp
+*.swo
+
+# =========================
+# 📁 PROJECT-SPECIFIC
+# =========================
+# Streamlit config & cache
+.streamlit/
+*.toml
+
+# Temporary upload or data folders
+uploads/
+temp/
+tmp/
+*.tmp
+*.bak
+
+# =========================
+# 🚀 BUILD & DIST
+# =========================
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# =========================
+# 🧰 IDE & EDITOR FILES
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# 🔐 SECRETS & CREDENTIALS
+# =========================
+api_keys.json
+secrets.json
+token.json
+credentials.json
+
+# =========================
+# 🧪 TEST / DEV OUTPUT
+# =========================
+*.out
+*.test
+*.pytest_cache/
+*.coverage
+htmlcov/
+.coverage
+.pytest_cache/
